@@ -1,0 +1,24 @@
+{
+  "name": "electron_hello_world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simmibadhan/electron_hello_world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simmibadhan/electron_hello_world/issues"
+  },
+  "homepage": "https://github.com/simmibadhan/electron_hello_world#readme",
+  "devDependencies": {
+    "electron": "^1.7.12"
+  }
+}
