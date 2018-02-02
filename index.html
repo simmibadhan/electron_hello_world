@@ -1,7 +1,15 @@
 <html>
   <head>
-    <title>Hello World!</title>
+    <title>Electron Hello World!</title>
+    <link rel="stylesheet" href="./style.css"
   </head>
+  <body>
+    <h1>
+      Hello! <br/> You are using electron version: <span id="version"></span>
+    </h1>
+    <script>
+      require('./renderer.js')
+    </script>
 
-  <h1>Hello Electron!</h1>
+  </body>
 </html>
